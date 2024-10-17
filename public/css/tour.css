@@ -1,0 +1,86 @@
+.fix-name{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    font-size: 19px;
+
+    font-weight: 700;
+}
+.border-tour{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 44px;
+}
+.mleft-8{
+margin-left: -8px;
+}
+
+.fix-image-tour-client{
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+
+}
+.fix-location-length {
+  /*   max-width: 200px; Điều chỉnh giá trị này để phù hợp với độ dài mong muốn */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-tour{
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -11px;
+    width: 98%;
+    margin-left: 3px;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+   
+}
+.text-gach{
+    text-decoration: line-through;
+    color: #8E8D8A;
+}
+.mg--2{
+    margin-top: -2px;
+}
+.hover-tour{
+    transition: transform 0.3s ease-in-out; /* Để tạo hiệu ứng mượt mà */
+}
+
+.hover-tour:hover {
+    transform: scale(1.05); /* Tăng kích thước lên 1.1 lần */
+}
+.mg-t-6{
+    margin-top: 6px;
+}
+.button-kichhoat{
+    display: flex;
+    justify-content: end;
+  }
+.button-exit{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 2px 26px;
+    border-radius: 9px;
+    color: #1F1C17;
+}  
+.button-yes{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 2px 26px;
+    border-radius: 9px;
+    color: #FFFFFF;
+    background: #B8101A;
+}  
+@media all and (max-width: 768px) {
+.fix-768-tour{
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.content-tour{
+   
+    margin-top: -18px;
+    margin-left: 5px;
+}
+
+}
